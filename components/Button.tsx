@@ -1,19 +1,17 @@
 import Image from "next/image";
 
-type ButtonProps = {
+interface ButtonProps {
   type: "button" | "submit";
   title: string;
   icon?: string;
   variant: string;
-};
-const Button = ({ type, title, icon, variant }: ButtonProps) => {
+  full?: boolean;
+}
+const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
-    <button
-      className={`flexCenter rounded-full border ${variant}`}
-      type={type}
-    >
+    <button className={`flexCenter rounded-full border-spacing-6 ${variant} ${full && 'w-full'}`} type={type}>
       {icon && <Image src={icon} alt={title} width={24} height={24} />}
-      <label className="bold-16 whitespace-nowrap">{title}</label>
+      <label className="bold-16 whitespace-nowrap cursor-pointer">{title}</label>
     </button>
   );
 };
