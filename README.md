@@ -1,8 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌍 MyTravel App
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-First, run the development server:
+## 📖 About
+
+MyTravel App is a modern web application built with Next.js, TypeScript, and Tailwind CSS. It aims to provide users with a seamless travel planning experience.
+
+## 🚀 Features
+
+- Responsive design
+- Server-side rendering
+- TypeScript for type safety
+- Tailwind CSS for rapid UI development
+
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/Arslan2214/MyTravel-App-Next-TS-.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd MyTravel-App-Next-TS-
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+## 🏃‍♂️ Running the App
+
+To start the development server:
 
 ```bash
 npm run dev
